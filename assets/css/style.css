@@ -1,0 +1,82 @@
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #f4f4f4;
+  color: #222;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.site-header,
+.site-footer {
+  padding: 20px 0;
+  background: #222;
+  color: #fff;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.site-header h1 {
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  margin: 50px 0;
+  padding: 50px 30px;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.hero h2 {
+  margin-bottom: 15px;
+}
+
+.hero p {
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.site-footer {
+  margin-top: 40px;
+  text-align: center;
+}
