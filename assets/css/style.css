@@ -84,3 +84,7 @@ button {
 .site-header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+
+.hero h2 {
+  font-size: 32px;
+}
